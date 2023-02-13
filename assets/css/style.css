@@ -1,9 +1,29 @@
-*{
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Open Sans', sans-serif;
+
+
+:root {
+    --dp-primary: #b4d0e7;
+    --dp-dark_design: #b4d0e7;
+    --dp-blu_design: #0d2481;
+    --dp-azure_design: #0093ce;
+    --dp-yellow_design: #ffd830;
+    --dp-light: #ffffff;
+    --dp-black: #000000;
+    --dp-dark_red: #d5001f;
+}
+
+/* region header */
+
+#site-header{
+    background-color: #0d2481;
+    height: 70px;
 }
