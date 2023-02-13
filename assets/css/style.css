@@ -59,7 +59,7 @@ body {
 
 /* #endregion header */
 
-/* region main */
+/* #region main */
 
 #site-main{
     margin-top: 110px;
@@ -70,13 +70,25 @@ body {
     margin-bottom: 2rem;
 }
 
+.partners{
+    margin-top: 8rem;
+}
 
 
 
+.row .col-left{
+    width: 70%;
+
+}
+
+.row .col-right{
+    width: 30%;
+
+}
 
 
 
-/* region utility */
+/* #region utility */
 .d-flex {
     display: flex;
 }
@@ -91,7 +103,7 @@ body {
 }
 
 .container-small{
-    width: 50%;
+    width: 60%;
     margin: auto;
 }
 
