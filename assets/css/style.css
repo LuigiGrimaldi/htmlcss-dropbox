@@ -48,7 +48,7 @@ body {
 /* region main */
 
 #site-main{
-    
+
 }
 
 
@@ -68,6 +68,11 @@ body {
 
 .container{
     width: 70%;
+    margin: auto;
+}
+
+.container-small{
+    width: 50%;
     margin: auto;
 }
 
@@ -92,7 +97,7 @@ body {
     }
 
     .debug .jumbotrone{
-        height: 400px;
+      
         width: 100%;
     }
 /* endregion debug */
