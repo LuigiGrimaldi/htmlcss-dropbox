@@ -11,19 +11,88 @@ body {
 
 
 :root {
-    --dp-primary: #b4d0e7;
-    --dp-dark_design: #b4d0e7;
-    --dp-blu_design: #0d2481;
-    --dp-azure_design: #0093ce;
-    --dp-yellow_design: #ffd830;
-    --dp-light: #ffffff;
-    --dp-black: #000000;
-    --dp-dark_red: #d5001f;
+    --db-primary: #b4d0e7;
+    --db-dark_design: #b4d0e7;
+    --db-blu_design: #0d2481;
+    --db-azure_design: #0093ce;
+    --db-yellow_design: #ffd830;
+    --db-light: #ffffff;
+    --db-black: #000000;
+    --db-dark_red: #d5001f;
 }
 
 /* region header */
 
-#site-header{
+#site-header {
     background-color: #0d2481;
     height: 70px;
 }
+
+.jumbotrone{
+    background-color: var(--db-primary);
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* .title-jumb{
+    padding: 2rem;
+} */
+
+.col-jumb{
+    width: 30%;
+}
+
+
+/* endregion header */
+
+/* region main */
+
+#site-main{
+    
+}
+
+
+
+
+
+
+
+/* region utility */
+.d-flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.p-2{
+    padding: 2rem;
+}
+
+
+/* endregion utility */
+
+/* region debug */
+    .debug .right_menu{
+        height: 30px;
+        width: 100%;
+        background-color: #ffd830;
+    }
+
+    .debug .left_menu{
+        height: 30px;
+        width: 100%;
+        background-color: royalblue;
+    }
+
+    .debug .jumbotrone{
+        height: 400px;
+        width: 100%;
+    }
+/* endregion debug */
