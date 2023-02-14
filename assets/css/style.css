@@ -146,6 +146,8 @@ body {
 
 
 
+
+
 /* #endregion main */
 
 /* #region utility */
@@ -164,6 +166,11 @@ body {
 
 .container-small {
     width: 60%;
+    margin: auto;
+}
+
+.container-large{
+    width: 100%;
     margin: auto;
 }
 
@@ -188,6 +195,21 @@ body {
     margin-bottom: 2rem;
 }
 
+.mt-8{
+    margin-top: 8rem;
+}
+
+.col-4 {
+    width: calc((100% / 12) * 3);
+    padding: 1rem;
+    border: 0.5px solid black;
+}
+
+.col-xl {
+    width: 100%;
+    border: 0.5px solid black;
+}
+
 /* endregion utility */
 
 /* region debug */
@@ -208,6 +230,37 @@ body {
     width: 100%;
 }
 
+.debug .team {
+    height: 300px;
 
+}
+
+.debug .col-xl{
+    height: 200px;
+    background-color: #ffd830;
+}
+
+.debug .col-left{
+    width: calc(100% / 3);
+    height: 400px;
+    background-color: #0061ff;
+}
+
+.debug .col-central{
+    width: calc(100% / 3);
+    height: 400px;
+    background-color: var(--db-dark_red);
+}
+
+.debug .col-right{
+    width: calc(100% / 3);
+    height: 400px;
+    background-color: yellowgreen;
+}
+
+.debug .content{
+    height: 400px;
+    background-color: #0d2481;
+}
 
 /* endregion debug */
