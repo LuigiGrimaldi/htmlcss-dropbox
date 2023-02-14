@@ -21,7 +21,7 @@ body {
     --db-dark_red: #d5001f;
 }
 
-/* #region header */
+/* #REGION HEADER */
 
 #site-header {}
 
@@ -36,9 +36,6 @@ body {
     font-size: smaller;
 }
 
-/* .title-jumb{
-    padding: 2rem;
-} */
 
 .right_menu {
     display: flex;
@@ -111,9 +108,9 @@ body {
     font-size: 54px;
 }
 
-/* #endregion header */
+/* #ENDREGION HEADER */
 
-/* #region main */
+/* #REGION MAIN */
 
 #site-main {
     margin-top: 110px;
@@ -148,9 +145,33 @@ body {
 
 
 
-/* #endregion main */
+/* #ENDREGION MAIN */
 
-/* #region utility */
+
+/* #REGION FOOTER */
+
+#site-footer{
+    background-color: var(--db-black);
+}
+
+.footer-top{
+    padding: 3rem;
+    gap: 1rem;
+}
+
+.footer-bottom{
+    width: 100%;
+    background-color: var(--db-black);
+}
+
+.footer-top .col-5{
+    width: calc(100% / 12 * 5);
+}
+
+/* #ENDREGION FOOTER */
+
+
+/* #REGION UTILITIES */
 .d-flex {
     display: flex;
 }
@@ -210,9 +231,9 @@ body {
     border: 0.5px solid black;
 }
 
-/* endregion utility */
+/* #ENDREGION UTILITIES */
 
-/* region debug */
+/* #REGION DEBUG */
 .debug .right_menu {
     height: 30px;
     width: 100%;
@@ -263,4 +284,20 @@ body {
     background-color: #0d2481;
 }
 
-/* endregion debug */
+.debug #site-footer{
+    height: 300px;
+    
+}
+
+.debug .footer-bottom{
+    height: 100px;
+
+}
+
+.debug .col-5{
+    background-color:aquamarine; 
+    height: 200px;
+
+}
+
+/* #ENDREGION DEBUG */
