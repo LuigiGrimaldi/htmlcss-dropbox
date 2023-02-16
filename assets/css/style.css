@@ -241,15 +241,29 @@ body img{
 .footer-top {
     padding: 3rem;
     gap: 1rem;
+    color: var(--db-light);
 }
 
 .footer-bottom {
     width: 100%;
     background-color: var(--db-black);
+    color: var(--db-light);
 }
 
 .footer-top .col-5 {
     width: calc(100% / 12 * 5);
+}
+
+.footer-top ul{
+    list-style: none;
+}
+
+.footer-top h3{
+    margin-bottom: 1rem;
+}
+
+.col-5 li{
+    margin-bottom: 0.5rem;
 }
 
 /* #ENDREGION FOOTER */
