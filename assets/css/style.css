@@ -6,7 +6,11 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
+    font-size: 13px;
+}
+
+body img{
+    max-width: 100%;
 }
 
 
@@ -211,6 +215,16 @@ body {
     max-width: 100%;
 }
 
+.img-central{
+    max-width: 30%;
+}
+
+.row-central hr{
+    width: 80px;
+}
+
+
+
 /* #ENDREGION MAIN */
 
 
@@ -312,6 +326,33 @@ body {
     padding: 0.5rem;
     font-size: x-small;
 }
+
+.row-left{
+    max-width: 30%;
+}
+
+.row-central{
+    max-width: 40%;
+    margin: auto;
+    flex-grow: 2;
+}
+
+.row-right{
+    max-width: 30%;
+    flex-grow: 1;
+}
+
+.col-sm{
+    width: calc(100% /  2);
+}
+
+.col-sm > img{
+    max-width: 50%;
+}
+
+
+
+
 
 /* #ENDREGION UTILITIES */
 
