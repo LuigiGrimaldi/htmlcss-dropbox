@@ -128,12 +128,12 @@ body {
 
 
 .row .col-left {
-    width: 70%;
+    width: 60%;
 
 }
 
 .row .col-right {
-    width: 30%;
+    width: 40%;
 
 }
 
@@ -177,24 +177,34 @@ body {
     font-size: x-small;
 }
 
-.card-body hr{
+.card-body hr {
     width: 50px;
 }
 
-.col-12 .col-12-head{
+.col-12 .col-12-head {
     text-align: center;
 }
 
-.col-12-body .col-12-left{
+.col-12-body .col-12-left {
     padding: 1rem;
     width: 70%;
 }
 
-.col-12-body .col-12-right{
+.col-12-body .col-12-right {
     padding: 1rem;
     width: 30%;
 }
 
+.img-partner {
+    max-width: 100%;
+}
+
+.btn-white {
+    padding: 0.25rem;
+    margin-top: 2rem;
+    border: 1px solid;
+    text-align: center;
+}
 
 
 /* #ENDREGION MAIN */
@@ -268,11 +278,11 @@ body {
     margin-bottom: 2rem;
 }
 
-.mt-1{
+.mt-1 {
     margin-top: 1rem;
 }
 
-.mt-2{
+.mt-2 {
     margin-top: 2rem;
 }
 
@@ -291,13 +301,14 @@ body {
     border: 0.5px solid black;
 }
 
-.btn{
+.btn {
     text-align: center;
     background-color: var(--db-blu_design);
     color: var(--db-light);
     padding: 0.5rem;
     font-size: x-small;
 }
+
 /* #ENDREGION UTILITIES */
 
 /* #REGION DEBUG */
