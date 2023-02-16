@@ -223,6 +223,10 @@ body img{
     width: 80px;
 }
 
+.trial{
+    background-color: var(--db-primary)
+}
+
 
 
 /* #ENDREGION MAIN */
@@ -349,6 +353,21 @@ body img{
 .col-sm > img{
     max-width: 50%;
 }
+
+.bg-w{
+    background-color: white;
+    color:black ;
+}
+
+.p-1{
+    padding: 1rem;
+}
+
+.w-40{
+    width: 40%;
+}
+
+
 
 
 
