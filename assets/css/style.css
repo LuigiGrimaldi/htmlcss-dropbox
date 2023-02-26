@@ -113,6 +113,10 @@ body img {
     font-size: 54px;
 }
 
+.bicycle{
+    max-width: 100%;
+    background-color: #d5001f;
+}
 
 
 /* #ENDREGION HEADER */
